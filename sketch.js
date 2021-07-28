@@ -179,7 +179,7 @@ function draw() {
   if(player.isTouching(plat15)){
     lava7.y = -221;
     alert("Congratulations You Saved Your Id")
-    location.href = 'https://anshugahlyan.github.io/3g/index.html';
+    window.location.replace("https://anshugahlyan.github.io/3g/index.html");
   }
   
   if(keyDown("q")){
